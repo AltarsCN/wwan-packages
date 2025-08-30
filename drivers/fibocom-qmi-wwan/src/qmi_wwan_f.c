@@ -33,6 +33,8 @@
 #include <linux/usb/usbnet.h>
 #include <linux/usb/cdc-wdm.h>
 
+int qma_setting_store(struct device *dev, QMAP_SETTING *qmap_settings, size_t size);
+
 #ifndef ETH_P_MAP
 #define ETH_P_MAP 0xDA1A
 #endif
